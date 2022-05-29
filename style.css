@@ -50,7 +50,7 @@
   padding: 0px;
 }
 
-.tasks__elem, h3 {
+.tasks__elem, .todo-title {
   list-style: none;
 }
 
@@ -143,13 +143,13 @@
   width: 226px
 }
 
-.btn_delete img {
+.btn_delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn_delete img:hover {
+.btn_delete-icon:hover {
   transform: rotateZ(0);
 }
 
