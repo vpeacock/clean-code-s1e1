@@ -50,15 +50,17 @@
   padding: 0px;
 }
 
-.tasks__elem, .todo-title {
+.tasks__elem,
+.todo-title {
   list-style: none;
 }
 
-.input,.btn{
+.input,
+.btn {
   outline: none;
 }
 
-.btn{
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -85,7 +87,7 @@
   text-transform: uppercase;
 }
 
-.input__task  {
+.input__task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -155,22 +157,29 @@
 
 /* Completed */
 
-#completed-tasks .tasks__label {
+#completed-tasks
+.tasks__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.list .tasks__elem .input-text {
+.list
+.tasks__elem
+.input-text {
   display: none;
 }
 
-.list .tasks__elem.edit-mode .input-text {
+.list
+.tasks__elem.edit-mode
+.input-text {
   display: inline-block;
   width: 224px;
 }
 
-.list .tasks__elem.edit-mode .tasks__label {
+.list
+.tasks__elem.edit-mode
+.tasks__label {
   display: none;
 }
