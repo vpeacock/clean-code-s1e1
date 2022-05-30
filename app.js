@@ -34,13 +34,14 @@ var createNewTaskElement=function(taskString){
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
+    deleteButtonImg.classList.add('btn_delete-icon');
 
     label.innerText=taskString;
-    label.className='task incomplete-tasks__label tasks__label';
+    label.className='task tasks__label incomplete-tasks__label';
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    checkBox.className = 'incomplete-tasks__input-check input';
+    checkBox.className = 'incomplete-tasks__input-check input completed-task__input-check';
 
     editInput.type="text";
     editInput.className="task incomplete-tasks__input-text input-text input input__task";
